@@ -1,14 +1,17 @@
+import sys
 from src.inputs import *
 from src.neural_network import NeuralNetwork
 
 
 # Example usage
-num_samples = 150
+num_samples = 100
 learning_rate = 0.1
 epochs = 10000
 
 x_train, y_train = build_training(num_samples)
-x_train, y_train = load_training()
+# x_train, y_train = load_training()
+plot_map(num_samples, x_train, y_train)
+sys.exit()
 
 
 model = NeuralNetwork([2, 5, 2])
