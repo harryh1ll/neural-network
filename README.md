@@ -21,7 +21,7 @@ This was tested using python 3.10.13 and NumPy 1.24.3. Shouldn't need anything e
 
 There is a pretty good convergence of the MSE which could definitely be improved by SGD
 
-<img src="figs/problem.png" alt="Alt text" width="600"/>
+<img src="figs/mse.png" alt="Alt text" width="600"/>
 
 Gives 100% accuracy after the default number of epochs.
 
