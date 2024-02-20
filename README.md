@@ -15,7 +15,7 @@ The network should classify these points into either 'safe' or 'dangerous' using
 
 ## Requirements
 
-This was tested using python 3.10.13 and NumPy 1.24.3. Shouldn't need anything else. There is a requirements.txt if you need it.
+This was tested using python 3.10.13, NumPy 1.24.3 and matplotlib 3.4.3. Shouldn't need anything else. There is a requirements.txt if you need it.
 
 ## Results
 
