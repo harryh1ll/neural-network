@@ -6,7 +6,7 @@ from src.neural_network import NeuralNetwork
 # Example usage
 num_samples = 100
 learning_rate = 0.1
-epochs = 20000
+epochs = 100000
 
 x_train, y_train = build_training(num_samples)
 # x_train, y_train = load_training()
