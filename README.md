@@ -11,7 +11,7 @@ Solve a **very simple** 2-D classification problem using neural networks from sc
 
 <img src="figs/problem.png" alt="Alt text" width="600"/>
 
-Firstly, the neural network will learn the classification of the training data into 'safe' or 'dangerous' given a set of x,y training data as shown above. Then testing will pass in unseen x,y coordinates and be able to classify them as either 'safe' or 'dangerous' using the trained model
+Firstly, the neural network will learn the classification of the training data into 'safe' or 'dangerous' given a set of x,y coordinate training data as shown above. Then testing will pass in unseen x,y coordinates and be able to classify them as either 'safe' or 'dangerous' using the trained model
 
 ## Requirements
 
