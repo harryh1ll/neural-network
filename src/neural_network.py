@@ -52,6 +52,9 @@ class NeuralNetwork:
         plt.plot(iteration, mse_total)
         ax = plt.gca()
         ax.set_yscale('log')
+        plt.grid(True, which="both")
+        plt.xlabel('Epoch [-]')
+        plt.ylabel('Mean Square Error [-]')
         plt.show()
 
 

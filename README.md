@@ -19,3 +19,13 @@ This was tested using python 3.10.13 and NumPy 1.24.3. Shouldn't need anything e
 
 ## Results
 
+There is a pretty good convergence of the MSE which could definitely be improved by SGD
+
+<img src="figs/problem.png" alt="Alt text" width="600"/>
+
+Gives 100% accuracy after the default number of epochs.
+
+## Next steps
+
+This is so basic it could really do with 1000 things doing to it. SGD, use matrices to process all samples in one pass, different activation functions, different cost functions, add momentum to gradient descent, mpi or gpu accleration... THE LIST GOES ON. I kind of want to do something else now this works though.
+
