@@ -9,6 +9,7 @@ I really wanted to understand exactly what libraries like tensorflow are doing u
 
 Solve a **very simple** 2-D classification problem using neural networks from scratch using python. The aim was to perform this without any additional libraries for machine learning (tensorflow, pytorch etc.).
 
+![problem](https://github.com/harryh1ll/neural-network/figs/problem.png)
 
 
 
