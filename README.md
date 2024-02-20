@@ -11,7 +11,7 @@ Solve a **very simple** 2-D classification problem using neural networks from sc
 
 <img src="figs/problem.png" alt="Alt text" width="600"/>
 
-The network should classify these points into either 'safe' or 'dangerous' given their x,y coordinates using machine learning. Training samples will pass in completely unseen examples and be able to classify them as either 'safe' or 'dangerous' using the machine learning model.
+The network should classify these points into either 'safe' or 'dangerous' given their x,y training coordinates using machine learning. Testing will pass in unseen coordinates and be able to classify them as either 'safe' or 'dangerous' using the machine learning model.
 
 ## Requirements
 
