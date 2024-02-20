@@ -9,7 +9,7 @@ I really wanted to understand exactly what libraries like tensorflow are doing u
 
 Solve a **very simple** 2-D classification problem using neural networks from scratch using python. The aim was to perform this without any additional libraries for machine learning (tensorflow, pytorch etc.).
 
-![problem](figs/problem.png)
+<img src="figs/hi.png" alt="Alt text" width="300"/>
 
 
 
