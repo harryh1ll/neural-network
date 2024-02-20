@@ -7,9 +7,15 @@ I really wanted to understand exactly what libraries like tensorflow are doing u
 
 ## Aim
 
-Solve a **very simple** 2-D classification problem using neural networks from scratch using python. The aim was to perform this without any additional libraries for machine learning (tensorflow, pytorch etc.).
+Solve a **very simple** 2-D classification problem using neural networks from scratch using python. The aim was to perform this without any additional libraries for machine learning (tensorflow, pytorch etc.). An example of the problem is shown below.
 
 <img src="figs/problem.png" alt="Alt text" width="600"/>
 
+The network should classify these points into either 'safe' or 'dangerous' using machine learning.
 
+## Requirements
+
+This was tested using python 3.10.13 and NumPy 1.24.3. Shouldn't need anything else. There is a requirements.txt if you need it.
+
+## Results
 
