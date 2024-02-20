@@ -11,7 +11,7 @@ Solve a **very simple** 2-D classification problem using neural networks from sc
 
 <img src="figs/problem.png" alt="Alt text" width="600"/>
 
-The network should classify these points into either 'safe' or 'dangerous' using machine learning.
+The network should classify these points into either 'safe' or 'dangerous' given their x,y coordinates using machine learning. Training samples will pass in completely unseen examples and be able to classify them as either 'safe' or 'dangerous' using the machine learning model.
 
 ## Requirements
 
@@ -23,7 +23,7 @@ There is a pretty good convergence of the MSE which could definitely be improved
 
 <img src="figs/mse.png" alt="Alt text" width="600"/>
 
-Gives 100% accuracy after the default number of epochs.
+Gives 100% test accuracy after the default number of epochs.
 
 ## Next steps
 
