@@ -10,9 +10,7 @@ epochs = 10000
 
 x_train, y_train = build_training(num_samples)
 # x_train, y_train = load_training()
-plot_map(num_samples, x_train, y_train)
-sys.exit()
-
+# plot_map(num_samples, x_train, y_train)
 
 model = NeuralNetwork([2, 5, 2])
 model.train(x_train, y_train, epochs, learning_rate, num_samples)

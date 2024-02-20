@@ -42,16 +42,30 @@ def load_training():
 
 def plot_map(n_samples, x_train, y_train):
 
+    safe = []
+    dangerous = []
+
     for i in range(n_samples):
         if ((y_train[0,i] == 0) and (y_train[1,i] == 1)):   # safe
-            plt.scatter(x_train[0,i], x_train[1,i], color='green', edgecolor='black')
+            safe.append([x_train[0,i], x_train[1,i]])
         else:                  # dangerous
-            plt.scatter(x_train[0,i], x_train[1,i], color='red', edgecolor='black')
+            dangerous.append([x_train[0,i], x_train[1,i]])
 
+
+    safe = np.array(safe)
+    dangerous = np.array(dangerous)
+    x = np.linspace(0, 1, num=100)
+    y = 0.02660099 + 4.171921*x - 9.371921*x**2 + 5*x**3
+
+    plt.scatter(safe[:,0], safe[:,1], color='green', edgecolor='black', label='safe')
+    plt.scatter(dangerous[:,0], dangerous[:,1], color='red', edgecolor='black', label='dangerous')
+    plt.plot(x, y, color='black')
     plt.xlim([0,1])
     plt.ylim([0,1])
     plt.xlabel('x [-]')
     plt.ylabel('y [-]')
+    leg = plt.legend(framealpha=1)
+    leg.get_frame().set_edgecolor('b')
     plt.show()
 
 
